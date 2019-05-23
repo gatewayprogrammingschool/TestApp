@@ -1,11 +1,10 @@
 ﻿<Page
-    x:Class="TestApp.MainPage"
+    x:Class="TestApp.UI.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="using:WPO.UI.Public"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    xmlns:local="using:TestApp.UI"
+    xmlns:mc="http://schemas.oxpenxmlformats.org/markup-compatibility/2006">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <NavigationView x:Name="Navigation">

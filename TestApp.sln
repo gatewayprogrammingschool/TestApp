@@ -11,11 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.iOS", "TestApp\Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.UWP", "TestApp\TestApp.UWP\TestApp.UWP.csproj", "{C6EEC432-4AD4-43E0-980A-29D5FD15B441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.Wasm", "TestApp\TestApp.Wasm\TestApp.Wasm.csproj", "{215F2C47-F238-440C-91E6-D7C23BB0FC1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.Wasm", "TestApp\TestApp.Wasm\TestApp.Wasm.csproj", "{215F2C47-F238-440C-91E6-D7C23BB0FC1E}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TestApp\TestApp.Shared\TestApp.Shared.projitems*{24d060f5-fc4b-4459-9b42-fb01f3692620}*SharedItemsImports = 4
 		TestApp\TestApp.Shared\TestApp.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		TestApp\TestApp.Shared\TestApp.Shared.projitems*{a71657d2-bf05-4c4c-97c8-a4f456920345}*SharedItemsImports = 4
+		TestApp\TestApp.Shared\TestApp.Shared.projitems*{c6eec432-4ad4-43e0-980a-29d5fd15b441}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
